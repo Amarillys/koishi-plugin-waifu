@@ -22,3 +22,4 @@ commands:
         already-marriage: '{quote}你已经娶了老婆，今天别再娶啦！'
         members-too-few: 能娶的群友没有这位，或许可以先把对方骗出来聊天？！
         target-self: '{quote}娶自己干嘛！'
+        other-waifu: '{quote}群友「{name}」已经名花有主啦'
