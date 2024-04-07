@@ -177,6 +177,7 @@ export function apply(ctx: Context, cfg: Config) {
         }
         allMemberList[session.guildId] = memberList
       
+        delete relationMap[session.fid]
         let waifu = memberList[targetId]
         let waifuFid = `${session.platform}:${session.guildId}:${waifu.user.id}`
         if (cfg.avoidNtr) {
